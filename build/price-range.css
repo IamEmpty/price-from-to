@@ -58,12 +58,14 @@ body {
   border: 1px solid #c1c1c1;
   width: 100%;
   box-sizing: border-box;
+  appearance: textfield;
 }
 
 .price-range-dropdown__input:focus {
   outline: none;
   border: 1px solid #8e24aa;
   box-shadow: 0 0 11px rgba(142, 36, 170, .35);
+  appearance: textfield;
 }
 
 .price-range__list {
