@@ -3,8 +3,17 @@ html
   head
     meta(charset='utf-8')
     title Button
+    link(rel='stylesheet' href='price-range.css')
+    link(href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css')
   body
-    button.price-(placeholder='Цена от-до в рублях' type='button')
-    form
-      input(type='number')
-      input(type='number')
+    button.price-range-button(type='button')
+      span.price-range-button__text Цена от-до в рублях
+      span.price-range-button__icon()
+    form.price-range-dropdown
+      .price-range__column
+        input.price-range-dropdown__input(type='number')
+        ul.price-range__list
+          each val in [1000000, 1500000, 2000000, 2500000, 3000000, 3500000]
+            li.price-range__item= val
+      .price-range__column
+        input.price-range-dropdown__input(type='number')

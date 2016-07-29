@@ -1,0 +1,26 @@
+body {
+  background: red;
+}
+
+.price-range-button {
+  border: none;
+  background: #fff;
+  outline: none;
+  padding: 18px 22px 19px 14px;
+}
+
+.price-range-button:focus {
+  border: none;
+  outline: none;
+}
+
+.price-range-button__text {
+  color: #6d6d6d;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+}
+
+.price-range-button__icon {
+  background: url(images/arrow.svg);
+}

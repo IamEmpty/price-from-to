@@ -5,7 +5,7 @@
   "main": "src/price-range.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pug demo -o build",
+    "build": "pug demo -o build && cp src/price-range.css build",
     "watch": "pug demo -w -o build"
   },
   "repository": {
