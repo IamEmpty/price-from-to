@@ -1,12 +1,12 @@
 {
-  "name": "price-from-to",
+  "name": "price-range",
   "version": "1.0.0",
   "description": "price button",
-  "main": "src/price-from-to.js",
+  "main": "src/price-range.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pug src/index.pug -o build && cp bower_components/jquery/dist/jquery.min.js build && cp src/js/sticky-header.js build",
-    "watch": "pug examples -w -o build"
+    "build": "pug demo -o build",
+    "watch": "pug demo -w -o build"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/IamEmpty/price-from-to/issues"
   },
-  "homepage": "https://github.com/IamEmpty/price-from-to#readme"
+  "homepage": "https://github.com/IamEmpty/price-from-to#readme",
+  "dependencies": {
+    "pug": "^2.0.0-beta4"
+  }
 }
