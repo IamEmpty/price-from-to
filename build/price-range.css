@@ -2,6 +2,10 @@ body {
   background: red;
 }
 
+.hide {
+  display: none;
+}
+
 .price-range-button {
   border: none;
   background: #fff;
