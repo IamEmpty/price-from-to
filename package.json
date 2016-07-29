@@ -1,0 +1,25 @@
+{
+  "name": "price-from-to",
+  "version": "1.0.0",
+  "description": "price button",
+  "main": "src/price-from-to.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pug src/index.pug -o build && cp bower_components/jquery/dist/jquery.min.js build && cp src/js/sticky-header.js build",
+    "watch": "pug examples -w -o build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamEmpty/price-from-to.git"
+  },
+  "keywords": [
+    "choosing",
+    "button"
+  ],
+  "author": "IamEmpty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IamEmpty/price-from-to/issues"
+  },
+  "homepage": "https://github.com/IamEmpty/price-from-to#readme"
+}
