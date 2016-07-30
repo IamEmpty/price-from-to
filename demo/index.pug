@@ -11,13 +11,13 @@ html
       span.price-range-button__icon()
     form.price-range-dropdown
       .price-range__column
-        input.price-range-dropdown__input(type='number')
+        input#price-range-start.price-range-dropdown__input(type='number')
         ul.price-range__list
           each val in [1000000, 1500000, 2000000, 2500000, 3000000, 3500000]
             li.price-range__item(value= val)= val
       .price-range__column
-        input.price-range-dropdown__input(type='number')
+        input#price-range-finish.price-range-dropdown__input(type='number')
         ul.price-range__list
           each val in [1500000, 2000000, 2500000, 3000000, 3500000, 4000000]
-            li.price-range__item= val
+            li.price-range__item(value= val)= val
     script(src='index.js')
