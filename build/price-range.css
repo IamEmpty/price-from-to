@@ -89,8 +89,8 @@ body {
   background: #f4f4f4;
 }
 
-.price-range__item:first-child {
-  padding: 9px 0 10px 12px;
+.price-range__item_disabled {
+  cursor: not-allowed;
 }
 
 .price-range__column {
