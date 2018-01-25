@@ -4,9 +4,7 @@
   "description": "price button",
   "main": "src/price-range.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/pug demo -o build && cp src/price-range.css build",
-    "watch": "pug demo -w -o build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,6 +21,6 @@
   },
   "homepage": "https://pure-js.github.io/price-from-to",
   "devDependencies": {
-    "pug-cli": "^1.0.0-alpha6"
+    "gulp": "github:gulpjs/gulp#4.0"
   }
 }
