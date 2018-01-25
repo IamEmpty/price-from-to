@@ -4,5 +4,8 @@ bower_components/
 
 dist/
 
+# Build
+build/
+
 # macOS file
 .DS_Store
