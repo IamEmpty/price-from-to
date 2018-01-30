@@ -3,4 +3,9 @@ bower_components/
 *.log
 
 dist/
+
+# Build
+build/
+
+# macOS file
 .DS_Store

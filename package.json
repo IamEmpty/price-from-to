@@ -4,25 +4,23 @@
   "description": "price button",
   "main": "src/price-range.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pug demo -o build && cp src/price-range.css build",
-    "watch": "pug demo -w -o build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IamEmpty/price-from-to.git"
+    "url": "git+https://github.com/pure-js/price-from-to.git"
   },
   "keywords": [
     "choosing",
     "button"
   ],
-  "author": "IamEmpty",
+  "author": "pure-js",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IamEmpty/price-from-to/issues"
+    "url": "https://github.com/pure-js/price-from-to/issues"
   },
-  "homepage": "https://github.com/IamEmpty/price-from-to#readme",
-  "dependencies": {
-    "pug": "^2.0.0-beta4"
+  "homepage": "https://pure-js.github.io/price-from-to",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0"
   }
 }
