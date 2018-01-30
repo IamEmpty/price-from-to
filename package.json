@@ -21,6 +21,6 @@
   },
   "homepage": "https://pure-js.github.io/price-from-to",
   "devDependencies": {
-    "gulp": "github:gulpjs/gulp#4.0"
+    "gulp": "~4.0.0"
   }
 }
